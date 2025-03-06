@@ -3,10 +3,7 @@
 ##  How to Run
 
 ### Clone the Repository
-```bash
-git clone https://github.com/yourusername/o1a-assessment.git
-cd o1a-assessment
-```
+
 ### Run this command
 ```bash
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
